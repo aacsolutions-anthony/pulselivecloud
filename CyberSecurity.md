@@ -33,15 +33,20 @@ High level description:
 
     User-Server Mapping: The application must also keep a record of which server each user should be redirected to after they're authenticated. This could be a database table with each user's ID and the corresponding server's URL or IP address.
 
-    Redirection: Once a user is authenticated, the application will look up the server the user should be redirected to and send a HTTP redirect response to the client. The client's browser will then make a new request to the redirected server.
+    Redirection: Once a user is authenticated, the application will open the user dashboard and look up the servers the user has access to, the user can select one from the list and a new tab should open that is a link to that server, (ensure that the incoming request is the cloud server) . The client's browser will then make a new request to the redirected server.
+    
+    Nginx Configuration: Each Nginx server should be configured to reverse proxy requests to the correct internal server based on the received requests. They should only allow connecitons from the cloud server proxy. 
 
-    Nginx Configuration: Each Nginx server should be configured to reverse proxy requests to the correct internal server based on the received requests.
+    User-Specific Access Control: To ensure a user can't access another user's server, you could include the user's ID or some other unique random identifier in the redirected URL, and have the Nginx server check this against the user-server mapping. If they don't match, Nginx would return an error response.
 
-    User-Specific Access Control: To ensure a user can't access another user's server, you could include the user's ID or some other unique identifier in the redirected URL, and have the Nginx server check this against the user-server mapping. If they don't match, Nginx would return an error response.
+User flow diagram: 
+A diagram is provided below which illustrates the system checks and conneciton flow of users. This should limit unauthorised access into another users server list, and unauthenticated access into the cloud server. 
+![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/111553838/2baa1de9-511d-4bfd-a85a-a857f5ac422d)
 
 
 Checkmark criteria: 
 Passes basic Kali Tool test by red team in QA. 
+Monthly offensive security exercise against data stream.  
 
 Author and contact: 
 Anthony - AAC Solutions 
