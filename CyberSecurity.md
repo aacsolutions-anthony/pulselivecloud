@@ -33,7 +33,9 @@ High level description:
 
     User-Server Mapping: The application must also keep a record of which server each user should be redirected to after they're authenticated. This could be a database table with each user's ID and the corresponding server's URL or IP address.
 
-    Redirection: Once a user is authenticated, the application will open the user dashboard and look up the servers the user has access to, the user can select one from the list and a new tab should open that is a link to that server, (ensure that the incoming request is the cloud server) . The client's browser will then make a new request to the redirected server.
+    Authorization: The back-end service receives the request and must authenticate and authorize the request. This could be done using a session ID, OAuth token, or JWT that was assigned when the user logged in. You would verify this token, check that the user has permission to access the selected server, and then initiate the connection to the server.
+
+    Redirection: Once a user is authenticated, the application will open the user dashboard and look up the servers the user has access to, the user can select one from the list and a new tab should open that is a link to that server, (ensure that the incoming request is the cloud server) . The client's browser will then make a new request to the redirected server. 
     
     Nginx Configuration: Each Nginx server should be configured to reverse proxy requests to the correct internal server based on the received requests. They should only allow connecitons from the cloud server proxy. 
 
