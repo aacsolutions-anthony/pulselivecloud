@@ -50,19 +50,24 @@ This is all done without a VPN or changing your network settings. All of the rem
 
 ### Software: 
 
-1. FLASK 
+**OVERVIEW**
+
+![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/131961269/34e6d07a-0250-492a-b0d3-2b00edfd14ba)
+
+
+**1. FLASK**
 
 ![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/131961269/54f3cd9a-8db1-45f4-82c2-d1260443b128)
 
-2. NGINX
+**2. NGINX**
 
 ![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/131961269/f0ed763f-42b5-468d-8988-467910cc9f82)
 
-3. PULSELIVE
+**3. PULSELIVE**
 
 ![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/131961269/fa40bdca-1c5b-400b-abc6-0940dcdb056e)
 
-4. AKAMI 
+**4. AKAMI**
 
 ![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/131961269/e7410c9a-39ad-4354-ae07-1ad43b8ddd2d)
 
