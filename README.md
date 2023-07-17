@@ -67,7 +67,7 @@ This is all done without a VPN or changing your network settings. All of the rem
 
 ![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/131961269/fa40bdca-1c5b-400b-abc6-0940dcdb056e)
 
-**4. AKAMI**
+**4. AKAMI / VULTR** *Sydney Locations*
 
 ![image](https://github.com/aacsolutions-anthony/pulselivecloud/assets/131961269/e7410c9a-39ad-4354-ae07-1ad43b8ddd2d)
 
