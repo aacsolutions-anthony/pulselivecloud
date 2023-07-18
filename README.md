@@ -1,4 +1,4 @@
-# PulseLive.cloud
+# PulseLive Proxy
 
 ## AAC Solutions 
 
@@ -15,7 +15,7 @@
   - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-PulseLive.cloud is an optional add on service to PulseLive which allows a venue manager to connect to their venue remotely, anywhere in the world (so long as you have an internet conneciton). 
+PulseLive Proxy is an optional add on service to PulseLive which allows a venue manager to connect to their venue remotely, anywhere in the world (so long as you have an internet conneciton). 
 This is all done without a VPN or changing your network settings. All of the remote access is handled by AAC Solutions' cloud server. 
 
 ## Features
@@ -28,7 +28,7 @@ This is all done without a VPN or changing your network settings. All of the rem
 - If you are a manager of multiple venues you can connect to multiple servers with our front dashboard.
 
 ## Prerequisites
-- As a user you are only required to have a web browser which supports TLS2 and TLS3
+- As a user you are only required to have a web browser which supports SSL2 and 3
 - (Any modern browser such as a recently updated Chrome, Firefox, Safari, Brave, TOR, and Opera should work fine) 
 
 ## Installation
@@ -74,7 +74,7 @@ This is all done without a VPN or changing your network settings. All of the rem
 
 ## Legal Parameters 
 This project is privatised and currently closed source as it is application specific. 
-PulseLive and PulseLive.cloud Copyright 2023 All rights reserved 
+PulseLive and PulseLive Proxy Copyright 2023 All rights reserved 
 
 ## Warranty 
 
