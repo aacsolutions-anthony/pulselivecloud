@@ -3,7 +3,7 @@
 ## AAC Solutions 
 
 ## Table of Contents
-- [PulseLive.cloud](#project-title)
+- [PulseLive Proxy](#project-title)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
